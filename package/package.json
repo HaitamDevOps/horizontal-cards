@@ -1,7 +1,7 @@
 {
   "name": "horizontal-cards",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.1.1",
+  "description": "This React package provides a seamless solution to display items from a list in the form of infinitely scrolled cards.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "type": "module",

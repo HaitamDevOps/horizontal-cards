@@ -35,7 +35,7 @@ function InitList (dataList, color1, color2, color3, bgColor){
 }
 
 function HorizontalCards(props) {
-  // props : {data, color1, color2, color3, bgColor}
+  // props : {data, titleColor, descriptionColor, lineColor, backgroundColor}
 
   const data = ((props.data===undefined)?[
     {title: "Item1", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ..."},
@@ -43,10 +43,10 @@ function HorizontalCards(props) {
     {title: "Item3", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard..."}
   ]:props.data);
 
-  const primaryColor = ((props.color1===undefined)?'#f2be00':props.color1);
-  const describeColor = ((props.color2===undefined)?'white':props.color2);
-  const lineColor = ((props.color3===undefined)?'#62dff5':props.color3);
-  const cardColor = ((props.bgColor===undefined)?'#1E293B':props.bgColor);
+  const cardColor = ((props.bgColor===undefined)?'#333C4A':props.bgColor);
+  const lineColor = ((props.lineColor===undefined)?'#808080':props.lineColor);
+  const primaryColor = ((props.titleColor===undefined)?'#FFFFFF':props.titleColor);
+  const describeColor = ((props.descriptionColor===undefined)?'white':props.descriptionColor);
   
   const [servList, setServList] = useState(InitList(data, primaryColor, lineColor, describeColor, cardColor));
 

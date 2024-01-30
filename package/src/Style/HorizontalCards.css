@@ -147,7 +147,7 @@
 /* Button */
 button {
     opacity: 0.3;
-    transition: opacity ease-in 2s;
+    transition: opacity ease-in .8s;
 }
 
 button:hover {
