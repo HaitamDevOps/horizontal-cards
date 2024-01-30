@@ -1,7 +1,5 @@
 # Demo project for Horizontal Cards package
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## About
 
 Within this directory, a basic React application generated using NPX [Create React App](https://github.com/facebook/create-react-app). Designed with the purpose of providing an immersive and hands-on experience for developers, this app serves as a live demonstration showcasing the capabilities of the Horizontal Cards package.
