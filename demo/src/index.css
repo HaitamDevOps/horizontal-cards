@@ -5,11 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #c6c6c6;
+  background-color: #141a29;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .info-wrapper {
@@ -23,6 +32,7 @@ code {
   text-justify: auto;
   margin: 0 auto;
   padding: 10px;
-  border-radius: 5px;
-  background-color: #f8da78;
+  border-radius: 3px;
+  font-size: 10.5pt;
+  background-color: #ff7b002d;
 }

@@ -9,15 +9,15 @@ function App() {
   return (
     <div className="App">
       <center>
-        <h1 style={{color:"#1e3252", borderBottom:"1px solid", paddingBottom:"2px", width:"260px"}}>Horizontal Cards</h1>
+        <h1 style={{borderBottom:"1px solid", paddingBottom:"2px", width:"260px"}}>Horizontal Cards</h1>
         <em style={{}}>Demo page</em>
       </center>
       <HorizontalCards 
         data = {inputList}
-        bgColor="#1e3252"
-        lineColor="#5e5e5e"
-        titleColor="white"
-        descriptionColor="#f5e7c9"
+        bgColor="#ad611a"
+        lineColor="#38fcd2"
+        titleColor="#d5ebeb"
+        descriptionColor="white"
       />
       <div className='info-wrapper'>
         <div className='info'>
