@@ -4,7 +4,6 @@
 
 The inspiration behind this React package stems from the observed absence of a convenient horizontal scroller list component in the React ecosystem. This package addresses this gap by providing a seamless solution to display items from a list in the form of infinitely scrolled cards. If you're looking to enhance user experience by incorporating a horizontal scrolling feature for your lists, this package is tailored to meet your needs.
 
-
 <p align="center" width="100%"><img src="https://raw.githubusercontent.com/HaitamDevOps/horizontal-cards/main/assets/demo-1.png"></p>
 
 ## Features
@@ -67,13 +66,13 @@ Feel free to explore additional props available for customization, which are det
 
 ## Props table
 
-| Name             | Type     | Default | Description                                                                                                  |
-| ---------------- | -------- | :-----: | ------------------------------------------------------------------------------------------------------------ |
-| data             | Object[] |   ---   | Refers to the input list that will be displayed as a scrolled horizontal list of cards                       |
-| bgColor          | String   | #333C4A | Refers to the background color of the cards                                                                  |
-| lineColor        | String   |  gray  | Refers to the color of the line in the middle of the cards and the color of the right and left arrow buttons |
-| titleColor       | String   |  white  | Refers to the color of the titles of the items in the list                                                   |
-| descriptionColor | String   |  white  | Refers to the color of the description of the items in the list                                              |
+| Name             | Type     | Default | Description                                                                                    |
+| ---------------- | -------- | :-----: | ---------------------------------------------------------------------------------------------- |
+| data             | Object[] |   ---   | Refers to the input list that will be displayed as a scrolled horizontal list of cards         |
+| bgColor          | String   | #333C4A | Refers to the background color of the cards and the color of the right and left arrow buttons |
+| lineColor        | String   |  gray  | Refers to the color of the line in the middle of the cards                                     |
+| titleColor       | String   |  white  | Refers to the color of the titles of the items in the list                                     |
+| descriptionColor | String   |  white  | Refers to the color of the description of the items in the list                                |
 
 ## Example
 
@@ -101,6 +100,10 @@ function App() {
 
 export default App;
 ```
+
+## Live demo
+
+Experience the live demo of the package by visiting the demo website [here](https://haitamdevops.github.io/horizontal-cards/), where you can interact with the application's features in real-time.
 
 ## License
 

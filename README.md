@@ -15,6 +15,10 @@
 * **Customizable:** Tailor the appearance and behavior of the scroller to align with your application's design and requirements.
 * **Efficient Rendering:** Benefit from optimized rendering to ensure a responsive and performant user interface, even when dealing with large datasets.
 
+## Live demo
+
+Experience the live demo of the package by visiting the demo website [here](https://haitamdevops.github.io/horizontal-cards/), where you can interact with the application's features in real-time.
+
 ## Repository structure
 
 <p align="center" width="100%"><img src="./assets/repo.structure.png"></p>

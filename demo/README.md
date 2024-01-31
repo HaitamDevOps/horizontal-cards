@@ -6,6 +6,10 @@ Within this directory, a basic React application generated using NPX [Create Rea
 
 To swiftly incorporate this demo into your local development environment, utilize the `git clone` command to fetch the repository, and subsequently, execute it on your host machine.
 
+## Live demo
+
+Experience the live demo of the package by visiting the demo website [here](https://haitamdevops.github.io/horizontal-cards/), where you can interact with the application's features in real-time.
+
 ## Run the demo locally
 
 To initiate the local execution of this application, follow the outlined steps below for a seamless setup:

@@ -1,13 +1,11 @@
 {
   "name": "horizontal-cards",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "This React package provides a seamless solution to display items from a list in the form of infinitely scrolled cards.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "type": "module",
   "scripts": {
-    "build:dev": "rollup -c --environment NODE_ENV:development",
-    "build": "rollup -c --environment NODE_ENV:production",
     "build-lib": "rollup -c"
   },
   "repository": {
@@ -26,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/HaitamDevOps/horizontal-cards/issues"
   },
-  "homepage": "https://github.com/HaitamDevOps/horizontal-cards#readme",
+  "homepage": "https://haitamdevops.github.io/horizontal-cards/",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
