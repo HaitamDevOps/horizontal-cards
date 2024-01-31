@@ -4,7 +4,8 @@
 
 The inspiration behind this React package stems from the observed absence of a convenient horizontal scroller list component in the React ecosystem. This package addresses this gap by providing a seamless solution to display items from a list in the form of infinitely scrolled cards. If you're looking to enhance user experience by incorporating a horizontal scrolling feature for your lists, this package is tailored to meet your needs.
 
-![img](https://raw.githubusercontent.com/HaitamDevOps/horizontal-cards/main/package/assets/demo-1.png)
+
+<p align="center" width="100%"><img src="https://raw.githubusercontent.com/HaitamDevOps/horizontal-cards/main/assets/demo-1.png"></p>
 
 ## Features
 
@@ -53,8 +54,6 @@ const inputList = [
 	{title: "Item4", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard..."}
 ];
 ```
-
-
 
 3. **Insert the HorizontalCards Component:**
 
